@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Mobile First (< 768px) */
+header,
+footer {
+  background-color: #3d348b;
+}
+
+header {
+  height: 5vh;
+}
+
+main {
+  height: 85vh;
+  background-color: white;
+}
+
+footer {
+  height: 10vh;
+}
+
+/* Desktop (>= 768px) */
+@media (min-width: 768px) {
+  header,
+  footer {
+    background-color: #a31621;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  main {
+    height: 70vh;
+  }
+
+  footer {
+    height: 20vh;
+  }
+}
