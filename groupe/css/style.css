@@ -4,3 +4,18 @@
   padding: 0;
 }
 
+@media  (max-width: 768px) {
+
+  .container {
+  display: flex;  
+  flex-direction: column;
+  gap: 20px;
+  margin: 0.5em 1em
+}
+
+.card {
+  width: 100%;
+  height: 50vh;  
+  background-color: #3d348b;  
+}
+}
