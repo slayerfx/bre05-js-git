@@ -8,8 +8,6 @@
 header,
 footer {
   background-color: #3d348b;
-  color: white;
-  padding: 1rem;
 }
 
 header {
@@ -19,7 +17,6 @@ header {
 main {
   height: 85vh;
   background-color: white;
-  padding: 1rem;
 }
 
 footer {
