@@ -1,9 +1,11 @@
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Petit ecran < 768px */
 @media (max-width: 768px) {
   main {
     display: flex;
@@ -19,3 +21,20 @@
     background-color: #3d348b;
   }
 }
+
+/* Grand ecran > 992px */
+@media (min-width: 992px) {
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:1rem;
+        width: 992px;
+        margin: auto;
+        padding: 1rem;
+    }
+    article{
+        background-color: yellow;
+        min-height: 300px;
+        width: 300px;
+    }
