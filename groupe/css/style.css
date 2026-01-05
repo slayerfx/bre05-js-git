@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  article {
+    height: 30vh;
+    background-color: #a31621;
+  }
+}
